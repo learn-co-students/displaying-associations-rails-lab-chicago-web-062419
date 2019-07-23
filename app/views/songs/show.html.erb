@@ -1,0 +1,7 @@
+<h1>Songs#show</h1>
+<%= link_to "#{@song.artist_name}", artist_path(@song.artist) %> - <%= @song.title %>
+<br>
+<br>
+
+<%= link_to 'Edit Song', edit_song_path %><br>
+<%= link_to 'Back to Home', songs_path %>
